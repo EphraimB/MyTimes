@@ -1,8 +1,53 @@
-header{display: flex; align-items: center; height: 80px; font-family: Verdana; font-size: 14px; font-weight: bold; border-bottom: 1px solid black;}
-#logo{display: flex; align-items: center; flex-grow: 1; padding-left: 30px;}
-#logo img{margin-right: 12px;}
-#logo span{color: MediumAquamarine;}
-header nav{padding-right: 40px;}
-header nav span{display: inline-block; padding: 20px 10px;}
-header nav span a{color: black;}
-div{border: 1px solid black;}
+header{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+#logo{display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+#logo img{
+  margin-right: 12px;
+}
+
+#logo span{
+  color: MediumAquamarine;
+}
+
+header nav{
+  padding-right: 40px;
+}
+
+header nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header nav span a{
+  color: black;
+}
+
+div{
+  border: 1px solid black;
+}
+
+#container{display: flex;}
+
+.column.large{
+  width: 630px;
+}
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+}
