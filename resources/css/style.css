@@ -41,9 +41,6 @@ div{
 
 #container{
   display: flex;
-  width: 1232px;
-  padding-top: 116px;
-  margin: 0 auto 78px auto;
 }
 
 .column{
