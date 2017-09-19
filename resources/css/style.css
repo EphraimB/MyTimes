@@ -61,9 +61,32 @@ div{
   width: 240px;
 }
 
-#mainStory{background-image: url("../img/img-story-main.png");
-color: white;
-font-size: 30px;
-font-weight: bold;
-font-family: Georgia;
+#mainStory{
+  font-size: 40px;
+  background-image: url("../img/img-story-main.png");
+}
+
+#firstStory{
+  background-image: url("../img/img-story-2.png");
+}
+
+#secondStory{
+  background-image: url("../img/img-story-3.png");
+}
+
+#thirdStory{
+  background-image: url("../img/img-story-1.png");
+}
+
+.imageDiv{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+.story{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
