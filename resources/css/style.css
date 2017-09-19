@@ -85,6 +85,9 @@ header nav span a{
 }
 
 .imageDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 300px;
   margin-top: 15px;
   color: white;
