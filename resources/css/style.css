@@ -35,15 +35,13 @@ header nav span a{
   color: black;
 }
 
-div{
-  border: 1px solid black;
-}
-
 #container{
   display: flex;
 }
 
 .column{
+  display: flex;
+  flex-direction: column;
   margin-right: 32px;
 }
 
@@ -77,14 +75,33 @@ div{
 
 .imageDiv{
   height: 300px;
+  margin-top: 15px;
   color: white;
+  text-align: center;
   font-size: 30px;
   font-weight: bold;
   font-family: Georgia;
 }
 
+.stories{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content{
+  height: 250px;
+}
+
 .story{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.narrative{
+  margin-top: 16px;
 }
